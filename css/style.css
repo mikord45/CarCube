@@ -14,7 +14,7 @@
     src: url(../public/fonts/SourceSansPro-Light.ttf)
 }
 
-*{
+.grid-container{
     overflow-x: hidden;
 }
 
