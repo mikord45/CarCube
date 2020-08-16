@@ -1,0 +1,443 @@
+
+@font-face{
+    font-family: SansPro;
+    src: url(../public/fonts/SourceSansPro-Black.ttf)
+}
+
+@font-face{
+    font-family: SansProBold;
+    src: url(../public/fonts/SourceSansPro-Bold.ttf)
+}
+
+@font-face{
+    font-family: SansProLight;
+    src: url(../public/fonts/SourceSansPro-Light.ttf)
+}
+
+body{
+    font-family: SansPro !important;
+    margin: 0px;
+}
+
+.grid-container{
+    padding: 0px;
+}
+
+.top-bar{
+    background-color: white;
+}
+
+.redFont{
+    color: #c3002e
+}
+
+#leftPartHeader{
+    margin-top: calc(1em - 20px);
+    font-family: SansProBold;
+    font-size: 2em;
+    line-height: 10px;
+}
+
+#smallText{
+    font-family: SansProLight;
+    font-size: 0.3em;
+}
+
+#smallBold{
+    font-family: SansProBold;
+}
+
+#rightPartHeader{
+    font-family: SansProLight;
+}
+
+.accordion-title{
+    text-align: center;
+    background-color: #4c4c4c !important;
+    color: white !important;
+    font-family: SansPro;
+    font-size: 1.2em;
+    border-color: #4c4c4c !important;
+}
+
+.accordion-content{
+    padding-top: 0px;
+    background-color: #4c4c4c !important;
+    border-color: #4c4c4c !important;
+}
+
+.accordion{
+    margin-bottom: 0px;
+}
+
+.menu{
+    text-align: center;
+    background-color: #4c4c4c !important;
+    font-family: SansProLight;
+}
+
+.menu a{
+    color: white !important;
+}
+
+.slick-arrow{
+    background-color:#4c4c4c;
+}
+
+.slick-prev{
+    position: absolute;
+    top: calc(50% - 15px);
+    width: 16px;
+    height: 60px;
+    z-index: 20;
+}
+
+.slick-next{
+    position: absolute;
+    top: calc(50% - 15px);
+    left: calc(100% - 16px);
+    width: 16px;
+    height: 60px;
+    z-index: 20;
+}
+
+/* .mySliderArrow{
+    width: 30px;
+    height: 30px;
+} */
+
+#selectArea{
+    background-color: #c3002f;
+    font-family: SansProLight;
+}
+
+#firstSelect{
+    padding-top: 25px;
+}
+
+select{
+    border-radius: 4px;
+    background: url(../public/images/expand.png) no-repeat right white;
+}
+
+#search{
+    background-color: #4c4c4c;
+    border-radius: 4px;
+}
+
+#cards{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.card-section{
+    padding-top: 0.5em;
+    background-color: #4c4c4c;
+    color: white;
+    font-family: SansProLight;
+}
+
+.card-section h1{
+    margin-bottom: 0px;
+    font-size: 2em;
+    margin-bottom: -0.2em;
+}
+
+#infoSection{
+    font-family: SansProLight;
+    background-color: #f3f2f2;
+}
+
+#infoSection h1{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#infoSection p{
+    margin-bottom: 2em;
+}
+
+#smallSlider h1{
+    margin-top: 1em;
+    margin-bottom: 0.7em;
+}
+
+.heart{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 10px;
+    left: calc(100% - 35px);
+    z-index: 20;
+}
+
+.helperDiv{
+    position: relative;
+}
+
+.slick-prevSmall{
+    position: absolute;
+    top: calc(25% - 15px);
+    width: 16px;
+    height: 60px;
+    z-index: 20;
+}
+
+.slick-nextSmall{
+    position: absolute;
+    top: calc(25% - 15px);
+    left: calc(100% - 16px);
+    width: 16px;
+    height: 60px;
+    z-index: 20;
+}
+
+.slick-slide{
+    border: none;
+}
+
+.card-section-slider{
+    background-color: #c3002f;
+    border-bottom: 5px solid #900000;
+}
+
+.card-section-slider p{
+    margin: 0px;
+}
+
+.carName{
+    font-size: 1.2em;
+}
+
+.carInfo{
+    font-size: 0.9em;
+}
+
+.price{
+    font-family: SansProBold;
+    font-size: 1.5em;
+}
+
+.socialMediaLogo{
+    width: 20px;
+    height: 20px;
+}
+
+.footer{
+    font-size: 10px;
+    font-family: SansProLight;
+}
+
+.footerPart1 {
+    background-color: #4c4c4c;
+    color: white;
+}
+
+.footerPart1 p{
+    margin-left: 10%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.footerPart2{
+    background-color: #333333;
+    padding-bottom: 3em;
+}
+
+.footerPart2 img{
+    margin-left: 2%;
+}
+
+.footerPart2 img:nth-child(1){
+    margin-left: 0px;
+}
+
+.footerPart2 p{
+    color: white;
+    margin-bottom: 0.5em;
+}
+
+.footerPart2 a{
+    margin: 0px;
+    color: white;
+}
+
+#imageBlock{
+    margin-top: 3em;
+}
+
+
+@media (min-width: 640px) and (max-width: 1023px){
+    .top-bar{
+        padding-top: 1em;
+    }
+
+    .menu{
+        font-size: 1.2em;
+    }
+
+    #selectArea select{
+        font-size: 1.5em;
+    }
+
+    #search{
+        font-size: 1.2em;
+    }
+    
+    #infoSection h1{
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        font-size: 2em;
+    }
+    
+    #infoSection p{
+        font-size: 1.3em;
+        margin-bottom: 2em;
+    }
+
+    #smallSlider h1{
+        font-size: 2em;
+        margin-top: 1em;
+        margin-bottom: 0.7em;
+    }
+
+    .card-section-slider p{
+        font-size: 1.5em;
+    }
+
+    .footerPart1 p{
+        font-size: 1.5em;
+    }
+
+    .footerPart2 p{
+        font-size: 1.5em;
+    }
+}
+
+
+@media (min-width: 1024px){
+    #leftPartHeader{
+        margin-top: 20px;
+        font-size: 3em;
+        line-height: 15px;
+    }
+    
+    
+    #rightPartHeader{
+        font-size: 1.5em;
+    }
+
+    .menu{
+        font-size: 1em;
+        padding-left: 170px;
+        padding-right: 170px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #selectArea {
+        padding-left: 120px;
+        padding-right: 120px
+    }
+
+    #selectArea select{
+        margin-top: 20px;
+        margin-bottom: 5px;
+        height: 2em;
+        font-size: initial;
+    }
+
+    .partOfSelect{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #search{
+        font-size: 0.8em;
+        width: 12%;
+    }
+
+    #cards{
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
+    
+    .card-section{
+        padding-top: 0.5em;
+        color: white;
+        font-family: SansProLight;
+        margin: 0px;
+    }
+    
+    .card-section h1{
+        margin-bottom: 0px;
+        font-size: 1.5em;
+        margin-bottom: -0.2em;
+    }
+
+    .card-section p{
+        font-size: 0.9em;
+    }
+
+    #infoSection{
+        font-family: SansProLight;
+        background-color: #f3f2f2;
+    }
+    
+    #infoSection h1{
+        font-size: 1.5em;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+    }
+    
+    #infoSection p{
+        margin-bottom: 2em;
+    }
+
+    #smallSlider h1{
+        font-size: 1.5em;
+        margin-top: 1.5em;
+        margin-bottom: 0.7em;
+    }
+
+    .card-section-slider{
+        background-color: #c3002f;
+        border-bottom: 5px solid #900000;
+        padding-bottom: 0px;
+    }
+
+    .price{
+        font-size: 1.2em !important;
+    }
+
+    .carInfo{
+        font-size: 0.8em !important;
+    }
+
+    .carName{
+        font-size: 0.9em !important;
+    }
+
+    #smallSlider .slick-list{
+        margin-bottom: 2em !important;
+        margin-right: 15% !important;
+        margin-left: 15% !important;
+    }
+
+    #smallSlider .card{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .heart{
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        top: 5px;
+        left: calc(100% - 25px);
+        z-index: 20;
+    }
+
+}
+
+
